@@ -89,15 +89,14 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 // Routers
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
-app.get("/", (req, res) => {
-  res.send("Welcome to the homepage!");
-});
 
-// Catch-all route
 app.all("*", (req, res, next) => {
   next(new ExpressError(404, "Page Not Found"));
 });
