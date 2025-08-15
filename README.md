@@ -3,7 +3,7 @@
 WanderLust is a full-stack web application that allows users to list, view, and review travel accommodations—just like Airbnb. Users can register, log in, create new listings with images, edit or delete them, and leave reviews on others' listings.
 
 🚀 Live Demo
--[https://airbnb-website-clone-1.onrender.com]
+-[https://airbnb-website-tjxy.onrender.com/listings]
 
 🛠️ Tech Stack
 Frontend: EJS, Bootstrap 5, Vanilla JS
